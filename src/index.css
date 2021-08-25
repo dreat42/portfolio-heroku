@@ -1,0 +1,64 @@
+body {
+  background-color: #FFFF;
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+  scroll-behavior:smooth;
+}
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'fira-sans.bold';
+  src: local('fira-sans.bold'),
+    url('./fonts/fira-sans.bold.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'fira-sans.extralight';
+  src: local('fira-sans.extralight'),
+    url('./fonts/fira-sans.extralight.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'fira-sans.regular';
+  src: local('fira-sans.regular'),
+    url('./fonts/fira-sans.regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'fira-sans.italic';
+  src: local('fira-sans.italic'),
+    url('./fonts/fira-sans.italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Helvetica-ExtLt';
+  src: local('Helvetica-ExtLt'),
+    url('./fonts/Helvetica-ExtLt.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Helvetica-Regular';
+  src: local('Helvetica-Regular'),
+    url('./fonts/Helvetica-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montez-Regular';
+  src: local('Montez-Regular'),
+    url('./fonts/Montez-Regular.ttf') format('truetype');
+}
